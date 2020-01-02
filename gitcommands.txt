@@ -19,6 +19,7 @@ git commit mne.txt -m 'This is not my first commit'
 git checkout -b my-new-branch
 git remote add origin https://github.com/desmidium/sandbox.git
 git push -u origin master
+git push
 
 
 ######### sub,odule ######
