@@ -1,0 +1,30 @@
+desmidium@yandex.com
+git config --global user.email "desmidium@yandex.com"
+git config --global user.name "Alena Orlenko"
+
+
+
+git@github.com:evildmp/afraid-to-commit.git
+https://github.com/evildmp/afraid-to-commit.git
+git clone git@github.com:<your github account>/afraid-to-commit.git
+
+https://github.com/desmidium/Sepsis-CRS
+
+
+
+################ commands ###########
+git status
+git add mne.txt
+git commit mne.txt -m 'This is not my first commit'
+git checkout -b my-new-branch
+git remote add origin https://github.com/desmidium/sandbox.git
+git push -u origin master
+
+
+######### sub,odule ######
+git submodule add https://github.com/desmidium/sandbox
+git diff --cached sandbox
+git diff --cached --submodule
+git commit -am 'sub'
+git push origin master
+https://git-scm.com/book/en/v2/Git-Tools-Submodules
